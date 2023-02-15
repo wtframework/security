@@ -1,0 +1,22 @@
+{
+  "name": "wtframework/security",
+  "description": "What the Framework?! security",
+  "license": "proprietary",
+  "require": {
+    "php": "^8.2",
+    "wtframework/config": "dev-main"
+  },
+  "autoload": {
+    "psr-4": {
+      "WTFramework\\Security\\": "src/"
+    }
+  },
+  "require-dev": {
+    "pestphp/pest": "^1.22"
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": false
+    }
+  }
+}
