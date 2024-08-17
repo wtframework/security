@@ -14,8 +14,6 @@ abstract class Crypt
   public const HASH_ALGORITHM = 'sha3-512';
   public const HASH_ITERATIONS = 10000;
 
-  private function __construct() {}
-
   public static function encrypt(string $plaintext): string
   {
 

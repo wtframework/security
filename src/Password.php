@@ -12,8 +12,6 @@ abstract class Password
   public const ALGORITHM = PASSWORD_DEFAULT;
   public const OPTIONS = ['cost' => 12];
 
-  private function __construct() {}
-
   public static function hash(string $password): string
   {
 
